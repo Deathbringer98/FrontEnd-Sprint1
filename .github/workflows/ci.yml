@@ -15,11 +15,18 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
+<<<<<<< HEAD
       - name: Set up JDK 17
         uses: actions/setup-java@v3
         with:
           java-version: '17'
           distribution: 'temurin' # This specifies the JDK distribution
+=======
+    - name: Set up JDK 17
+      uses: actions/setup-java@v3
+      with:
+        java-version: '17'
+>>>>>>> b9f7dafa559a0279cdf6bdb0d5b615211c81f4c5
 
       - name: Build with Maven
         run: mvn -B package --file pom.xml
