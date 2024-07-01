@@ -1,5 +1,3 @@
-"""
-
 package com.keyin.http.cli;
 
 import com.keyin.Aircraft;
@@ -67,4 +65,3 @@ public class AircraftTest {
         assertEquals(passengers, aircraft.getPassengers());
     }
 }
-"""
